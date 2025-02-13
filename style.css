@@ -1,0 +1,48 @@
+nav {
+  background-color: rgb(223, 182, 3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+div {
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  gap: 20px;
+  font-size: x-large;
+  margin-top: 75px;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  container: flex;
+}
+li {
+  display: inline;
+  text-align: center;
+  margin-right: 3rem;
+}
+span {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.form {
+  background-color: rgb(133, 167, 65);
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+input {
+  margin-top: 20px;
+  height: 30px;
+}
+label {
+  display: flex;
+  justify-content: end;
+}
